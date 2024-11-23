@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: jardinmental
+    ports:
+      - "5433:5432"
