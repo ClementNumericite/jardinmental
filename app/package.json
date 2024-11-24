@@ -78,7 +78,7 @@
     "react-native-reanimated": "^2.8.0",
     "react-native-safe-area-context": "^3.1.9",
     "react-native-screens": "^2.15.0",
-    "react-native-sentry": "^0.43.2",
+    "@sentry/react-native": "^5.31.0",
     "react-native-svg": "^12.1.0",
     "react-native-swiper": "^1.6.0",
     "react-native-tab-view": "^2.15.2",
@@ -96,7 +96,7 @@
     "metro-react-native-babel-preset": "^0.67.0",
     "react-native-svg-transformer": "^0.14.3",
     "react-test-renderer": "17.0.2",
-    "tailwindcss": "^3.2.1"
+    "tailwindcss": "3.2.1"
   },
   "jest": {
     "preset": "react-native"

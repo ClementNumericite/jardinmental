@@ -12,7 +12,7 @@ import Router from "./src/navigation/router";
 import { DiaryDataProvider } from "./src/context/diaryData";
 import { DiaryNotesProvider } from "./src/context/diaryNotes";
 import NPS from "./src/services/NPS/NPS";
-import { Sentry } from "react-native-sentry";
+import { Sentry } from "@sentry/react-native";
 import { NeedUpdateContextProvider } from "./src/context/needUpdate";
 import { InfoModalProvider } from "./src/components/InfoModal";
 import { SafeAreaProvider } from "react-native-safe-area-context";
